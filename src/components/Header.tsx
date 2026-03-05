@@ -13,8 +13,8 @@ export function Header() {
   return (
     <header className="header">
       <div className="header-inner">
-        <Link to="/" className="logo" aria-label="Dispatch home">
-          Dispatch
+        <Link to="/" className="logo" aria-label="Ground Truth home">
+          Ground Truth
         </Link>
         <nav className="nav" aria-label="Main">
           <ul className="nav-list">
