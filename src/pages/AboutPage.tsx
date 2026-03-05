@@ -1,0 +1,31 @@
+import { Link } from 'react-router-dom'
+import '../styles/article.css'
+
+export function AboutPage() {
+  return (
+    <div className="page">
+      <section className="hero hero--small">
+        <div className="container container--narrow">
+          <h1 className="hero-title">About Signal</h1>
+          <p className="hero-subtitle">
+            We explain what’s going on — in world affairs, tech, climate, and culture — so you can get to the point fast.
+          </p>
+        </div>
+      </section>
+
+      <div className="container container--narrow">
+        <div className="article-body">
+          <p>
+            Signal is a blog that focuses on clarity. We cover current events, useful ideas, and the kind of questions people actually search for: why something is happening, how it works, and what to do about it.
+          </p>
+          <p>
+            No fluff, no hype. Just clear takes you can read in a few minutes.
+          </p>
+          <p>
+            Browse <Link to="/category/world">World</Link>, <Link to="/category/tech">Tech</Link>, <Link to="/category/climate">Climate</Link>, or <Link to="/category/culture">Culture</Link>, or start on the <Link to="/">homepage</Link>.
+          </p>
+        </div>
+      </div>
+    </div>
+  )
+}
