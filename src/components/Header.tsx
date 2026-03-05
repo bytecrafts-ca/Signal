@@ -13,8 +13,8 @@ export function Header() {
   return (
     <header className="header">
       <div className="header-inner">
-        <Link to="/" className="logo" aria-label="Signal home">
-          Signal
+        <Link to="/" className="logo" aria-label="Dispatch home">
+          Dispatch
         </Link>
         <nav className="nav" aria-label="Main">
           <ul className="nav-list">
